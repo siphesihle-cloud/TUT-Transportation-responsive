@@ -1,0 +1,138 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.header
+{
+    min-height: 100hv;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(documents/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+    nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+width: 150px;
+
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-link ul li a{
+    color: dark blue;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.nav-link ul li:: after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+width: 100%;
+}
+.text-box{
+width: 90%;
+Color: dark blue;
+Position: absolute;
+top: 500%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+@media(max-width: 700px);{
+    text-box h1{
+    font-size: 20px;
+}
+.nav-link ul li{
+display: block;
+}
+.nav-link{
+position: absolute;
+background:#f44336;
+height: 100hv;
+width: -200px;
+top:0;
+right:0;
+text-align: left;
+z-index:2;
+}
+Login{
+        Width: 382px;
+        Overflow: hidden;
+        Margin: auto;
+        Margin: 20 0 0 450px;
+        Padding: 80px;
+        Background: #23463f;
+        Border-radius: 15px ;
+
+}
+H2{
+    Text-align: center;
+    Color: #277582;
+    Padding: 20px;
+}
+Label{
+    Color: #08ffd1;
+    Font-size: 17px;
+}
+#Uname{
+    Width: 300px;
+    Height: 30px;
+    Border: none;
+    Border-radius: 3px;
+    Padding-left: 8px;
+}
+#Pass{
+    Width: 300px;
+    Height: 30px;
+    Border: none;
+    Border-radius: 3px;
+    Padding-left: 8px;
+
+}
+#log{
+    Width: 300px;
+    Height: 30px;
+    Border: none;
+    Border-radius: 17px;
+    Padding-left: 7px;
+    Color: blue;
+
+
+}
+Span{
+    Color: white;
+    Font-size: 17px;
+}
+A{
+    Float: right;
+    Background-color: grey;
+
+
+}
+.campuses{
+    button-align: center;
+}
+}
+
